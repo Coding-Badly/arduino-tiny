@@ -59,17 +59,28 @@ Next...
 
       C:\Projects\Arduino\hardware\tiny\cores\tiny\
 
-* Open the "boards.txt" file and change the "upload.using" entries to the
-  appropriate value for your setup.  Following from the examples above, the
-  file would be here...
+* Create a new file named "boards.txt" in the tiny directory.  Following from
+  the examples above, the file would be here...
 
       C:\Projects\Arduino\hardware\tiny\boards.txt
 
-* Start the Arduino IDE and ensure the new boards are listed under the [Tools]
-  [Board] menu...
+* Open the "boards.txt" file and the "Prospective Boards.txt" file using your
+  favourite text editor.
 
-      "ATtiny84 @ 8 MHz"
-      "ATtiny84 @ 1 MHz"
+* Copy board entries of interest from "Prospective Boards.txt" to "boards.txt"
+  (or copy the entire contents of "Prospective Boards.txt" to "boards.txt").
+  Board entries are delineated by a long line of pound-signs.
+
+* In the "boards.txt" file, change the "upload.using" entries to the
+  appropriate value for your setup.
+
+* Save and close "boards.txt".  Close "Prospective Boards.txt".
+
+* Start the Arduino IDE and ensure the new boards of interest are listed under
+  the [Tools] [Board] menu...
+
+      "ATtiny84 @ 16 MHz  (external crystal; 4.3 V BOD)"
+      "ATtiny85 @ 8 MHz  (internal oscillator; BOD disabled)"
       etcetera
 
 You are now ready to use Arduino-Tiny!
