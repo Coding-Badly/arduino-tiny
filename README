@@ -37,25 +37,16 @@ Next...
 
       C:\Projects\Arduino
 
-  After extracting, the following files should exist...
+  After extracting, the following files / folders should exist...
 
-      C:\Projects\Arduino\hardware\tiny\boards.txt
-      C:\Projects\Arduino\hardware\tiny\programmers.txt
+      C:\Projects\Arduino\hardware\tiny\license.txt
+      C:\Projects\Arduino\hardware\tiny\Prospective Boards.txt
+      C:\Projects\Arduino\hardware\tiny\README
+      C:\Projects\Arduino\hardware\tiny\bootloaders\
+      C:\Projects\Arduino\hardware\tiny\cores\
 
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty2313at1.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty2313at8.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty25at1.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty25at8.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty45at1.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty45at8.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty84at1.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty84at16.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty84at8.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty85at1.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty85at16.hex
-      C:\Projects\Arduino\hardware\tiny\bootloaders\empty\empty85at8.hex
-
-  And the following folder should contain the Arduino-Tiny core...
+  The following folder should contain the source files for the Arduino-Tiny
+  core...
 
       C:\Projects\Arduino\hardware\tiny\cores\tiny\
 
